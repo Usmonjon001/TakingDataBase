@@ -1,0 +1,27 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.movies-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar{
+    width: 100%;
+    background-color: darkcyan;
+    &_item{
+        padding: 10px 15px;
+        text-decoration: none;
+        display: inline-block;
+    }
+}

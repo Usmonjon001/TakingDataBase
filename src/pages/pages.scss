@@ -1,0 +1,30 @@
+.movie-info{
+    &-back{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        position: absolute;
+        filter: blur(10px);
+    }
+    &-front{
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: rgba(77, 52, 52, 0.589);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        .movie-poster{
+            margin-right: 50px;
+            padding: 15px 0;
+            width: 400px;
+            border-radius: 40px;
+        }
+    }
+}
+
+
+.movie-info-front{
+    background-color: rgba(19, 18, 17, 0.616);
+}

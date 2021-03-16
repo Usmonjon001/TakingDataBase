@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    paddihng: 0;
+}
+.header{
+    background-color: red;
+}
+
+.navbar{
+    width: 100%;
+    background-color: darkcyan;
+    margin-bottom: 50px;
+    &_item{
+        padding: 10px 15px;
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        font-weight: bold;
+    }
+}
